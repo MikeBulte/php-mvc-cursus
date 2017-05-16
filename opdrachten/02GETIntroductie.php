@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>PHP MVC Cursus Home</title>
+    <title>PHP MVC 02</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
