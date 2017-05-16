@@ -5,10 +5,10 @@
     <title>PHP MVC Cursus Home</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-</html>
 <body>
     <h2>Dit is de hoofdpagina van PHP MVC, hier zitten de links naar alle opdrachten.</h2><br>
     <a href="opdrachten/01Introductie.php">01 Introductie</a><br>
     <a href="opdrachten/02GETIntroductie.php">02 GET Introductie</a><br>
 </body>
+</html>
 <?php
