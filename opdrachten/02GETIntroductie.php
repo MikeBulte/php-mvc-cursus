@@ -15,4 +15,4 @@
     $telefoon = "044-2918124";
     $land = "Nederland";
 
-    echo "Mijn naam is $naam. Ik woon in $land op $adres. Mijn email is $email en mijn telefoon nummer is $telefoon.";
+    echo "Mijn naam is ".$_GET['naam']." Ik woon in ".$_GET['land']." op ".$_GET['adres']." Mijn email is ".$_GET['email']." en mijn telefoon nummer is ".$_GET['telefoon'];
