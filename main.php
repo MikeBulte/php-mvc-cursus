@@ -10,6 +10,7 @@
     <a href="opdrachten/01Introductie.php">01 Introductie</a><br>
     <a href="opdrachten/02GETIntroductie.php">02 GET Introductie</a><br>
     <a href="opdrachten/03Inline.php">03 Inline PHP</a><br>
+    <a href="opdrachten/04Functies.php">04 Functies PHP</a><br>
 </body>
 </html>
 <?php
