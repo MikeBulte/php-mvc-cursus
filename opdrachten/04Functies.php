@@ -34,8 +34,6 @@
         echo "Het eerste gecombineerde getal ".$getalcombineerd1." ".checkinteger($getalcombineerd1). "<br>";
         echo "Het tweede gecombineerde getal ".$getalcombineerd2." ".checkinteger($getalcombineerd2). "<br>";
 
-
-
         function checkinteger($getal) {
             if (is_int($getal) == true) {
                 return $resultaatstring = "is een integer.";
@@ -43,6 +41,20 @@
                 return $resultaatstring = "is geen integer.";
             }
         }
+
+    /*
+     * De globale functie $_GET haalt een waarde uit de URL balk. Dit zou je met een html GET form kunnen gebruiken
+     * voor een simpele persoonlijke pagina.
+     * echo "Hallo ".$_GET['naam']."!";
+     *
+     * De globale functie $_COOKIE maakt een array van eerder verstuurde cookies. Hierbij zou je een persoonlijke
+     * pagina kunnen maken zonder dat iemand iedere keer zijn naam hoeft in te vullen.
+     * echo "Welkom terug ".$_COOKIE['naam'].".";
+     *
+     * De globale functie $_SERVER print informatie in een array over de server, file locaties en meer. Het
+     * resultaat van dit hangt van server per server af.
+     * echo $_SERVER['SERVER_PORT'];
+     */
     ?>
 </body>
 </html>
